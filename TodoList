@@ -1,0 +1,15 @@
+const ToDoList = function() {
+    
+    let toDoArray = ["Learn React", "Build a project", "Read documentation"];
+    
+    return (
+        <ul>
+            <h3>List:</h3>
+            <li>{toDoArray[0]}</li>
+            <li>{toDoArray[1]}</li>
+            <li>{toDoArray[2]}</li>
+        </ul>
+    );
+}
+
+export default ToDoList;
